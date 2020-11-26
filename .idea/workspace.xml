@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hoofdstuk 1/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1kmllVXB3B3IK0TQ7hlyZoCtEBG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hoofdstuk 1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="" />
+      <created>1606313798219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606313798219</updated>
+      <workItem from="1606313799288" duration="1797000" />
+      <workItem from="1606377838789" duration="2782000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="92" key="#CLI_Interpreters" timestamp="1606380520745">
+      <screen x="0" y="25" width="1920" height="976" />
+    </state>
+    <state x="432" y="92" key="#CLI_Interpreters/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606380520745" />
+    <state x="560" y="177" key="#Deployment" timestamp="1606382484304">
+      <screen x="0" y="25" width="1920" height="976" />
+    </state>
+    <state x="560" y="177" key="#Deployment/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606382484304" />
+    <state x="525" y="80" key="#PHP" timestamp="1606379302307">
+      <screen x="0" y="25" width="1920" height="976" />
+    </state>
+    <state x="525" y="80" key="#PHP/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606379302307" />
+    <state x="394" y="70" key="#PHP/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606315919912" />
+    <state x="540" y="350" key="NewPhpFileDialog" timestamp="1606314923942">
+      <screen x="0" y="25" width="1440" height="796" />
+    </state>
+    <state x="540" y="350" key="NewPhpFileDialog/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606314923942" />
+    <state x="469" y="149" key="SettingsEditor" timestamp="1606380521251">
+      <screen x="0" y="25" width="1920" height="976" />
+    </state>
+    <state x="469" y="149" key="SettingsEditor/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606380521251" />
+  </component>
+</project>
