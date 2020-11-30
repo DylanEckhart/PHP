@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <head>
     <style>
         body {
@@ -10,6 +6,7 @@
     </style>
 </head>
 <body>
+
 <?php
 
 for($a = 35; $a >= 25; $a--){
@@ -17,4 +14,5 @@ for($a = 35; $a >= 25; $a--){
 }
 
 ?>
+
 </body>
