@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 2.2">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 3/2.1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 3.1">
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 3/3.2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +46,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1kmllVXB3B3IK0TQ7hlyZoCtEBG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -79,7 +82,7 @@
       <workItem from="1606313799288" duration="1797000" />
       <workItem from="1606377838789" duration="4267000" />
       <workItem from="1606735320336" duration="7000" />
-      <workItem from="1606735364782" duration="489000" />
+      <workItem from="1606735364782" duration="1536000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1">
       <created>1606382591480</created>
@@ -109,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606383924726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 3.1">
+      <created>1606736427535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606736427535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Version 3.1">
+      <created>1606736443271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606736443271</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,10 +145,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Version 1.1" />
     <MESSAGE value="Version 2.1" />
     <MESSAGE value="Version 2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2.2" />
+    <MESSAGE value="Version 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 3.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="92" key="#CLI_Interpreters" timestamp="1606380520745">
@@ -147,18 +166,18 @@
     </state>
     <state x="525" y="80" key="#PHP/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606379302307" />
     <state x="394" y="70" key="#PHP/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606315919912" />
-    <state x="720" y="423" key="NewPhpFileDialog" timestamp="1606383821820">
+    <state x="720" y="423" key="NewPhpFileDialog" timestamp="1606736487455">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
-    <state x="720" y="423" key="NewPhpFileDialog/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606383821820" />
+    <state x="720" y="423" key="NewPhpFileDialog/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606736487455" />
     <state x="540" y="350" key="NewPhpFileDialog/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606314923942" />
     <state x="469" y="149" key="SettingsEditor" timestamp="1606380521251">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
     <state x="469" y="149" key="SettingsEditor/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606380521251" />
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606383926147">
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606736444766">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606383926147" />
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606736444766" />
   </component>
 </project>
