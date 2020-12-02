@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 4.2">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 1/formulier.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 1/resultaat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/formulier.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/resultaat.php" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 5.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 1/resultaat.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 1/resultaat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/formulier.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/formulier.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +78,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 1" />
       <recent name="$PROJECT_DIR$/Hoofdstuk 1" />
     </key>
   </component>
@@ -98,7 +97,7 @@
       <workItem from="1606772469016" duration="12000" />
       <workItem from="1606809304091" duration="1073000" />
       <workItem from="1606817945561" duration="60000" />
-      <workItem from="1606895456828" duration="1296000" />
+      <workItem from="1606895456828" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1">
       <created>1606382591480</created>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606810460104</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Version 5.1">
+      <created>1606897280743</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606897280743</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +243,8 @@
     <MESSAGE value="Version 3.7" />
     <MESSAGE value="Version 4.1" />
     <MESSAGE value="Version 4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 4.2" />
+    <MESSAGE value="Version 5.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 5.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="92" key="#CLI_Interpreters" timestamp="1606380520745">
@@ -263,9 +270,9 @@
     </state>
     <state x="469" y="149" key="SettingsEditor/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606380521251" />
     <state x="352" y="93" key="SettingsEditor/0.25.1440.796@0.25.1440.796" timestamp="1606772480135" />
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606810461249">
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606897281953">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606810461249" />
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606897281953" />
   </component>
 </project>
