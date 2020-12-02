@@ -19,9 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 5.2">
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 5.3">
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/IMG/f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/formulier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 3/resultaat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/resultaat.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 5/Opdracht 2/resultaat.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +107,7 @@
       <workItem from="1606772469016" duration="12000" />
       <workItem from="1606809304091" duration="1073000" />
       <workItem from="1606817945561" duration="60000" />
-      <workItem from="1606895456828" duration="2021000" />
+      <workItem from="1606895456828" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1">
       <created>1606382591480</created>
@@ -218,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606897727177</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Version 5.3">
+      <created>1606897963703</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606897963703</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +269,8 @@
     <MESSAGE value="Version 4.2" />
     <MESSAGE value="Version 5.1" />
     <MESSAGE value="Version 5.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 5.2" />
+    <MESSAGE value="Version 5.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 5.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="92" key="#CLI_Interpreters" timestamp="1606380520745">
@@ -268,19 +286,19 @@
     </state>
     <state x="525" y="80" key="#PHP/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606379302307" />
     <state x="394" y="70" key="#PHP/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606315919912" />
-    <state x="720" y="423" key="NewPhpFileDialog" timestamp="1606897640256">
+    <state x="720" y="423" key="NewPhpFileDialog" timestamp="1606898199361">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
-    <state x="720" y="423" key="NewPhpFileDialog/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606897640256" />
+    <state x="720" y="423" key="NewPhpFileDialog/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606898199361" />
     <state x="540" y="350" key="NewPhpFileDialog/0.25.1440.796/1440.25.1920.1055@0.25.1440.796" timestamp="1606314923942" />
     <state x="352" y="93" key="SettingsEditor" timestamp="1606772480135">
       <screen x="0" y="25" width="1440" height="796" />
     </state>
     <state x="469" y="149" key="SettingsEditor/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606380521251" />
     <state x="352" y="93" key="SettingsEditor/0.25.1440.796@0.25.1440.796" timestamp="1606772480135" />
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606897728164">
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606897966321">
       <screen x="0" y="25" width="1920" height="976" />
     </state>
-    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606897728164" />
+    <state x="560" y="239" key="Vcs.Push.Dialog.v2/-1080.25.1080.1895/0.25.1920.976@0.25.1920.976" timestamp="1606897966321" />
   </component>
 </project>
