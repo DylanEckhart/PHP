@@ -14,7 +14,7 @@ function login($email, $wachtwoord) {
 }
 
 if(!isset($_POST['submit'])) {
-    if(login($_POST['email'], $_POST['password'])){
+    if (login($_POST['email'], $_POST['password'])) {
         echo "Welkom!";
     } else {
         echo "Sorry, geen toegang!";
