@@ -1,5 +1,13 @@
 <?php
 
+// Tonen van invoer
+echo $_POST['naam'];
+    echo "<br>";
+echo $_POST['adres'];
+    echo "<br>";
+echo $_POST['email'];
+    echo "<br>";
+echo $_POST['wachtwoord'];
 
 // Uitkomst bij geen invoer
 if ($_POST['naam'] == "") {
