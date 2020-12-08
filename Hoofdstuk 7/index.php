@@ -7,6 +7,11 @@
         "Ishak" => "4321",
     );
 
+    if (isset($_GET["loguit"])) {
+        $_SESSION = array();
+        session_destroy();
+    }
+
     if (isset($_POST['knop'])
             && isset($gebruikers[$_POST["login"]])
             && $gebruikers[$_POST["login"]] == $_POST['pwd']) {
