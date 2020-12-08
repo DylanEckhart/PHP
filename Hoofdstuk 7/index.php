@@ -15,7 +15,7 @@
     if (isset($_POST['knop'])
             && isset($gebruikers[$_POST["login"]])
             && $gebruikers[$_POST["login"]] ["pwd"] == $_POST['pwd']) {
-        $_SESSION["gebruiker"] = $_POST["login"];
+        $_SESSION["gebruiker"] = array("naam" => $_POST["login"], "pwd" => $gebruikers[$_POST["login"]]['pwd'], "rol" => $gebruikers[$_POST["login"]]['rol']);
         $message = "Welkom ".$_SESSION["gebruiker"];
     } else {
         $message = "Welkom bij mijn inlogscherm!";
