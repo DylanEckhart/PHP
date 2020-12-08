@@ -2,9 +2,9 @@
     session_start();
 
     $gebruikers = array(
-        "Dylan" => "1234",
-        "Timo" => "5678",
-        "Ishak" => "4321",
+        "Dylan" => array("pwd" => "1234", "rol" => "Admin"),
+        "Timo" => array("pwd" => "5678", "rol" => "Admin"),
+        "Ishak" => array("pwd" => "4321", "rol" => "Gebruiker"),
     );
 
     if (isset($_GET["loguit"])) {
