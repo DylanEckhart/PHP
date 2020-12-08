@@ -33,5 +33,6 @@
             <input type="submit" name="knop">
         </form>
         <p><a href="website.php">Website</a></p>
+        <p><a href="index.php?loguit">Uitloggen</a></p>
     </body>
 </html>
