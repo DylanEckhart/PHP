@@ -13,7 +13,7 @@
           $_SESSION["gebruiker"] = $_POST["login"];
         $message = "Welkom ".$_SESSION["gebruiker"];
     } else {
-        $message = "Inloggen!";
+        $message = "Welkom bij mijn inlogscherm!";
     }
 ?>
 
@@ -29,6 +29,7 @@
         <label for="pwd">Password: </label>
         <input type="password" name="pwd" value="">
     </div>
+    <br>
     <input type="submit" name="knop">
 </form>
 <p><a href="website.php">Website</a></p>
