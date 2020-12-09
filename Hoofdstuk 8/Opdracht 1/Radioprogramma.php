@@ -10,7 +10,7 @@
         }
 
         public function getRadioProgramma() {
-            return array ("naam" => $this->naam, "omschrijving" => $this.$this->omschrijving);
+            return array ("naam" => $this->naam, "omschrijving" => $this->omschrijving);
         }
 
         public function getNaam() {

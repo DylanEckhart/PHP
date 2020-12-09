@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 1/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,7 @@
       <workItem from="1607337514454" duration="3000" />
       <workItem from="1607415038128" duration="5604000" />
       <workItem from="1607426697378" duration="3000" />
-      <workItem from="1607500356499" duration="3879000" />
+      <workItem from="1607500356499" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1">
       <created>1606382591480</created>
@@ -428,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607509593910</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Version 8.3">
+      <created>1607510105611</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607510105611</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 5.6" />
     <MESSAGE value="Version 5.7" />
     <MESSAGE value="Version 5.8" />
     <MESSAGE value="Version 5.9" />
@@ -473,6 +476,7 @@
     <MESSAGE value="Version 7.13" />
     <MESSAGE value="Version 8.1" />
     <MESSAGE value="Version 8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 8.2" />
+    <MESSAGE value="Version 8.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 8.3" />
   </component>
 </project>
