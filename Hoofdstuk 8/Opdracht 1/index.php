@@ -1,6 +1,7 @@
 <?php
 
     include_once ('Radioprogramma.php');
+    include_once ('Liedje.php');
 
     $ditprogramma = new Radioprogramma();
     $ditprogramma->setNaam("Radioprogramma");
@@ -11,7 +12,7 @@
     }
 
     $nieuwliedje = new Liedje("Butterfly Effect", "Travis Scott");
-//    $nieuwliedje = new Liedje("Chicago Freestyle", "Drake");
-//    $nieuwliedje = new Liedje("For The Night", "Pop Smoke");
+    $nieuwliedje = new Liedje("Chicago Freestyle", "Drake");
+    $nieuwliedje = new Liedje("For The Night", "Pop Smoke");
     echo $nieuwliedje->getTitel()."<br>";
     echo $nieuwliedje->getArtiest();
