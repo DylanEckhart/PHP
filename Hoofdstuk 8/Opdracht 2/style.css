@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 4.5vh;
+}
+
+.aap {
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: red;
+    line-height: 6vh;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
