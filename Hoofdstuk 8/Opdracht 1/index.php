@@ -11,5 +11,5 @@
     }
 
     $nieuwliedje = new Liedje();
-    echo $nieuwliedje->getTitel();
+    echo $nieuwliedje->getTitel()."<br>";
     echo $nieuwliedje->getArtiest();
