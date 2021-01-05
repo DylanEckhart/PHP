@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.16">
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autofilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autofilter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -119,14 +119,7 @@
       <workItem from="1607942335011" duration="2000" />
       <workItem from="1608476971067" duration="65000" />
       <workItem from="1609834392057" duration="14000" />
-      <workItem from="1609834431075" duration="7062000" />
-    </task>
-    <task id="LOCAL-00011" summary="Version 3.6">
-      <created>1606740461663</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1606740461663</updated>
+      <workItem from="1609834431075" duration="8623000" />
     </task>
     <task id="LOCAL-00012" summary="Version 3.6">
       <created>1606742156777</created>
@@ -464,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609842878138</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Version 8.17">
+      <created>1609844033585</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844033585</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 7.5" />
     <MESSAGE value="Version 7.6" />
     <MESSAGE value="Version 7.7" />
     <MESSAGE value="Version 7.8" />
@@ -509,16 +508,7 @@
     <MESSAGE value="Version 8.14" />
     <MESSAGE value="Version 8.15" />
     <MESSAGE value="Version 8.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 8.16" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autodealer.php</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Version 8.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 8.17" />
   </component>
 </project>
