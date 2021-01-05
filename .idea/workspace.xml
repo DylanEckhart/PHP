@@ -19,27 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.14">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/audi1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/audi2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/ferrari1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/ferrari2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/ferrari3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/fiat1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/fiat2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/mercedes1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/mercedes2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/mercedes3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/mercedes4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/opel1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/opel2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/opel3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/vw1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/vw2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/vw3.jpg" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,21 +119,7 @@
       <workItem from="1607942335011" duration="2000" />
       <workItem from="1608476971067" duration="65000" />
       <workItem from="1609834392057" duration="14000" />
-      <workItem from="1609834431075" duration="6198000" />
-    </task>
-    <task id="LOCAL-00009" summary="Version 3.4">
-      <created>1606738748079</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1606738748079</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Version 3.5">
-      <created>1606738973405</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1606738973405</updated>
+      <workItem from="1609834431075" duration="7062000" />
     </task>
     <task id="LOCAL-00011" summary="Version 3.6">
       <created>1606740461663</created>
@@ -482,7 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609838853760</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Version 8.15">
+      <created>1609842715907</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609842715907</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Version 8.16">
+      <created>1609842878138</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1609842878138</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,8 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 7.3" />
-    <MESSAGE value="Version 7.4" />
     <MESSAGE value="Version 7.5" />
     <MESSAGE value="Version 7.6" />
     <MESSAGE value="Version 7.7" />
@@ -527,6 +507,18 @@
     <MESSAGE value="Version 8.12" />
     <MESSAGE value="Version 8.13" />
     <MESSAGE value="Version 8.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 8.14" />
+    <MESSAGE value="Version 8.15" />
+    <MESSAGE value="Version 8.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 8.16" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autodealer.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
