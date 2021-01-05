@@ -7,7 +7,7 @@
     </head>
     <body>
     <div id="wrapper">
-        <img src="IMG/wheelyHeader.jpg" alt="header-image">
+        <img class="header" src="IMG/wheelyHeader.jpg" alt="header-image">
         <form action="Autodealer.php" method="post">
             <label>
                 Merk: <br>

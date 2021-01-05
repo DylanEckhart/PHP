@@ -11,10 +11,13 @@ img.header {
 }
 
 form {
+    font-size: 24px;
+    margin: 15px auto;
     text-align: left;
     width: 80%;
 }
 
 select#merk {
     width: 100%;
+    height: 30px;
 }
