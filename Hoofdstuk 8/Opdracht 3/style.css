@@ -1,11 +1,20 @@
 body {
-
+    margin: 0;
 }
 
 #wrapper {
     text-align: center;
 }
 
-img.wheely {
+img.header {
+    width: 100%;
+}
+
+form {
+    text-align: left;
+    width: 80%;
+}
+
+select#merk {
     width: 100%;
 }
