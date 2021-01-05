@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.10">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/copy.html" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 8.11">
+      <change afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/IMG/wheelyHeader.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autodealer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/Autodealer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/copy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 8/Opdracht 3/style.css" afterDir="false" />
     </list>
@@ -118,14 +119,11 @@
       <workItem from="1607415038128" duration="5604000" />
       <workItem from="1607426697378" duration="3000" />
       <workItem from="1607500356499" duration="7640000" />
-      <workItem from="1607520322225" duration="4309000" />
-    </task>
-    <task id="LOCAL-00005" summary="Version 3.1">
-      <created>1606736427535</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1606736427535</updated>
+      <workItem from="1607520322225" duration="4956000" />
+      <workItem from="1607942335011" duration="2000" />
+      <workItem from="1608476971067" duration="65000" />
+      <workItem from="1609834392057" duration="14000" />
+      <workItem from="1609834431075" duration="1423000" />
     </task>
     <task id="LOCAL-00006" summary="Version 3.1">
       <created>1606736443271</created>
@@ -463,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607525358447</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Version 8.11">
+      <created>1607533707752</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1607533707752</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 6.2" />
     <MESSAGE value="Version 6.3" />
     <MESSAGE value="Version 7.1" />
     <MESSAGE value="Version 7.2" />
@@ -508,6 +512,7 @@
     <MESSAGE value="Version 8.8" />
     <MESSAGE value="Version 8.9" />
     <MESSAGE value="Version 8.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 8.10" />
+    <MESSAGE value="Version 8.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 8.11" />
   </component>
 </project>
