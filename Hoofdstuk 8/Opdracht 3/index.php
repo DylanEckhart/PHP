@@ -26,7 +26,7 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
 </head>
 <body>
 <div id="wrapper">
-    <img class="header" src="img/wheelyHeader.jpg" alt="header-img">
+    <img class="header" src="IMG/wheelyHeader.jpg" alt="header-img">
     <form action="index.php" method="post">
         <label>
             Banddikte: <br>
@@ -60,6 +60,7 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
     <div class="auto-columns">
         <div class="column">
             <?php
+            include_once("Auto.php");
                 foreach ($autoOverzicht->getGefilterdeLijst($banddikte, $merk, $minimalePrijs, $maximalePrijs) as $auto) {
                     echo $auto->getMerk() . " - " . $auto->getPrijs() . "<br />";
                     echo '<img width=512px height=512px src="' . $auto->getUrl() . '" alt=""/> <br/>';
