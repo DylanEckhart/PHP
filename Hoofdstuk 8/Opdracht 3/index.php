@@ -1,23 +1,21 @@
+
 <?php
 
-include_once("Auto.php");
+include_once("autoFilter.php");
 
-$merk = isset($_GET["merk"]) ? $_GET["merk"] : "";
 $banddikte = isset($_GET["banddikte"]) ? $_GET["banddikte"] : "";
-$minimalePrijs = isset($_GET["minimalePrijs"]) ? $_GET["minimalePrijs"] : 0;
-$maximalePrijs = isset($_GET["maximalePrijs"]) ? $_GET["maximalePrijs"] : 99999999;
+$merk = isset($_GET["merk"]) ? $_GET["merk"] : "";
+$minprijs = isset($_GET["min-prijs"]) ? $_GET["min-prijs"] : 0;
+$maxprijs = isset($_GET["max-prijs"]) ? $_GET["max-prijs"] : 99999999999999;
 
-$autoOverzicht = new AutoOverzicht();
-$autoOverzicht->voegAutoToe(new Auto("Dik", "Koenigsegg", "Jesko", 10000, "https://media2.autokopen.nl/afbeeldingen/audi-a3-sportback-303757-1920.jpg"));
-$autoOverzicht->voegAutoToe(new Auto("Dun", "McLaren", "P1", 10000, "https://media2.autokopen.nl/afbeeldingen/audi-a3-sportback-303757-1920.jpg"));
-$autoOverzicht->voegAutoToe(new Auto("Dun", "Ferrari", "FXX-K Evo", 10000, "https://media2.autokopen.nl/afbeeldingen/audi-a3-sportback-303757-1920.jpg"));
-$autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "https://media2.autokopen.nl/afbeeldingen/audi-a3-sportback-303757-1920.jpg"));
-
+$autoOverzicht = new autoOverzicht();
+$autoOverzicht->voegAutoToe(new autoFilter("Dun", "Audi", "R8", 30000, "https://www.autospectrum.nl/wp-content/uploads/2019/02/audi-r8-v10-decennium-rechts-voor.jpg"));
+$autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Jeep', 'Renegade', 34060, 'https://www.jeep.nl/content/dam/jeep/crossmarket/new-renegade-2019/Overview/02_colorizer/02_Colors/02_Trims/01_sport/Sport_296.png'));
+$autoOverzicht->voegAutoToe(new autoFilter('Middel', 'Bugatti', 'Chiron', 2400000, 'https://images.autowereld.com/1600x1000/bugatti-chiron-noir-matt-e1dfac.jpg'));
+$autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Lamborghini', 'Urus', 278844, 'https://media.autoweek.nl/m/6xlyubvb2t25_480.jpg'));
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>MR Wheely</title>
     <meta charset="UTF-8">
@@ -26,11 +24,12 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
 </head>
 <body>
 <div id="wrapper">
-    <img class="header" src="IMG/wheelyHeader.jpg" alt="header-img">
+    <img class="header" src="img/wheelyHeader.jpg" alt="header-img">
     <form action="index.php" method="GET">
         <label>
             Banddikte: <br>
             <select id="banddikte">
+                <option value="">Kies één van de onderstaande banddiktes</option>
                 <option value="dik">Dik</option>
                 <option value="middel">Middel</option>
                 <option value="dun">Dun</option>
@@ -39,10 +38,11 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
         <label>
             Merk: <br>
             <select id="merk">
-                <option value="Koenigsegg">Koenigsegg</option>
-                <option value="McLaren">McLaren</option>
-                <option value="Ferrari">Ferrari</option>
-                <option value="Mercedes-AMG">Mercedes-AMG</option>
+                <option value="">Kies één van de onderstaande merken</option>
+                <option value="Audi">Audi</option>
+                <option value='Jeep'>Jeep</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Lamborghini">Lamborghini</option>
             </select>
         </label>
         <label>
@@ -57,16 +57,16 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
         <button type="reset">Reset</button>
     </form>
 
-    <div class="auto-columns">
-        <div class="column">
-            <?php
-            include_once("Auto.php");
-                foreach ($autoOverzicht->getGefilterdeLijst($banddikte, $merk, $minimalePrijs, $maximalePrijs) as $auto) {
-                    echo $auto->getMerk() . " - " . $auto->getPrijs() . "<br />";
-                    echo '<img width=512px height=512px src="' . $auto->getUrl() . '" alt=""/> <br/>';
-                }
-            ?>
-        </div>
+    <div class="picture-holder">
+        <?php
+        include_once ('autoFilter.php');
+
+        foreach ($autoOverzicht->getGefilterdeLijst($banddikte, $merk, $minprijs, $maxprijs) as $auto) {
+            echo '<div class="pictures">' . $auto->getMerk() . ' - type: ' . $auto->getType() .  ' - Banddikte: ' . $auto->getBanddikte() . " - €" . $auto->getPrijs() . "<br>";
+            echo '<img width="100%" src="' . $auto->getUrl() . '" alt=""> <br> </div>';
+        }
+        ?>
     </div>
 </div>
 </body>
+</html>

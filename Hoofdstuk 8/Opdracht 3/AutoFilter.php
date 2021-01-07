@@ -1,12 +1,10 @@
 <?php
 
-class Auto {
-
-    // Variabelen voor class Auto
+class autoFilter {
+    private $banddikte;
     private $merk;
     private $type;
     private $prijs;
-    private $banddikte;
     private $url;
 
     public function __construct(string $banddikte, string $merk, string $type, int $prijs, string $url) {
@@ -17,9 +15,8 @@ class Auto {
         $this->url = $url;
     }
 
-    // Teruggeven van de ingevoerde waarden
     public function getBanddikte(): string {
-        return $this->merk;
+        return $this->banddikte;
     }
 
     public function getMerk(): string {
@@ -39,23 +36,20 @@ class Auto {
     }
 }
 
-class AutoOverzicht {
-
-    // Publieke variabelen
-    public $autoos;
+class autoOverzicht {
+    public $autos;
 
     public function __construct() {
-        $this->autoos = [];
+        $this->autos = [];
     }
 
-    // Filteren van aangegeven zoeknormen
-    function getGefilterdeLijst($banddikte, $minimalePrijs, $maximalePrijs, $merk) {
+    public function getGefilterdeLijst($banddikte, $merk, $minprijs, $maxprijs): array {
         $gefilterdeLijst = [];
 
-        foreach ($this->autoos as $auto) {
-            if ($auto->getBanddikte() === $banddikte && $auto->getMerk() === $merk && $auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs) {
+        foreach ($this->autos as $auto) {
+            if ($auto->getBanddikte() === $banddikte && $auto->getMerk() === $merk && $auto->getPrijs() >= $minprijs && $auto->getPrijs() <= $maxprijs) {
                 $gefilterdeLijst[] = $auto;
-            } else if ($auto->getBanddikte() === $banddikte && $merk === "" && $auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs) {
+            } else if ($banddikte === "" && $merk === "" && $auto->getPrijs() >= $minprijs && $auto->getPrijs() <= $maxprijs) {
                 $gefilterdeLijst[] = $auto;
             }
         }
@@ -63,14 +57,11 @@ class AutoOverzicht {
         return $gefilterdeLijst;
     }
 
-    // Toevoegen van auto's
     public function voegAutoToe($auto) {
-        $this->autoos[] = $auto;
+        $this->autos[] = $auto;
     }
 
-    // Tonen van gesorteerde auto's
-    public function getAutoLijst() {
-        return $this->autoos;
+    public function getAutoLijst(): array {
+        return $this->autos;
     }
 }
-
