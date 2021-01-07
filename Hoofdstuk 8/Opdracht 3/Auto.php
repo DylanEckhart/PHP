@@ -1,5 +1,44 @@
 <?php
 
+class Auto {
+
+    // Variabelen voor class Auto
+    private $merk;
+    private $type;
+    private $prijs;
+    private $banddikte;
+    private $url;
+
+    public function __construct(string $banddikte, string $merk, string $type, int $prijs, string $url) {
+        $this->banddikte = $banddikte;
+        $this->merk = $merk;
+        $this->type = $type;
+        $this->prijs = $prijs;
+        $this->url = $url;
+    }
+
+    // Teruggeven van de ingevoerde waarden
+    public function getBanddikte(): string {
+        return $this->merk;
+    }
+
+    public function getMerk(): string {
+        return $this->merk;
+    }
+
+    public function getType(): string {
+        return $this->type;
+    }
+
+    public function getPrijs(): int {
+        return $this->prijs;
+    }
+
+    public function getUrl(): string {
+        return $this->url;
+    }
+}
+
 class AutoOverzicht {
 
     // Publieke variabelen
@@ -35,41 +74,3 @@ class AutoOverzicht {
     }
 }
 
-class Auto {
-
-    // Variabelen voor class Auto
-    private $merk;
-    private $type;
-    private $prijs;
-    private $banddikte;
-    private $url;
-
-    public function __construct(string $banddikte, string $merk, string $type, int $prijs, string $url) {
-        $this->banddikte = $banddikte;
-        $this->merk = $merk;
-        $this->type = $type;
-        $this->prijs = $prijs;
-        $this->url = $url;
-    }
-
-    // Teruggeven van de ingevoerde waarden
-    public function getBanddikte() {
-        return $this->merk;
-    }
-
-    public function getMerk() {
-        return $this->merk;
-    }
-
-    public function getType() {
-        return $this->type;
-    }
-
-    public function getPrijs() {
-        return $this->prijs;
-    }
-
-    public function getUrl() {
-        return $this->url;
-    }
-}

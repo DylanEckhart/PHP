@@ -27,7 +27,7 @@ $autoOverzicht->voegAutoToe(new Auto("Middel","Mercedes-AMG", "GT R", 10000, "ht
 <body>
 <div id="wrapper">
     <img class="header" src="IMG/wheelyHeader.jpg" alt="header-img">
-    <form action="index.php" method="post">
+    <form action="index.php" method="GET">
         <label>
             Banddikte: <br>
             <select id="banddikte">
