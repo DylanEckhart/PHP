@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+img.header {
+    width: 100%;
+}
+
+form {
+    font-size: 24px;
+    margin: 15px auto;
+    text-align: left;
+    width: 80%;
+}
+
+select#banddikte {
+    width: 100%;
+    height: 30px;
+}
+
+select#merk {
+    width: 100%;
+    height: 30px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+#autos {
+    width: 80%;
+    margin: 15px auto;
+}
+
+div.wheely-img {
+    display:inline-block;
+    height:170px;
+    width:300px;
+    margin:20px;
+    border-radius: 10px;
+    padding:0;
+    text-shadow: 1px 1px 8px #ffffff;
+    background-position:center center;
+    background-size:cover;
+}
+
+h5 {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);;
+    padding:5px;
+}

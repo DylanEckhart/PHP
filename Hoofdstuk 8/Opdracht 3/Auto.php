@@ -10,13 +10,13 @@ class AutoOverzicht {
     }
 
     // Filteren van aangegeven zoeknormen
-    function getGefilterdeLijst($minimalePrijs, $maximalePrijs, $merk) {
+    function getGefilterdeLijst($banddikte, $minimalePrijs, $maximalePrijs, $merk) {
         $gefilterdeLijst = [];
 
         foreach ($this->autoos as $auto) {
-            if ($auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs && $auto->getMerk() === $merk) {
+            if ($auto->getBanddikte() === $banddikte && $auto->getMerk() === $merk && $auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs) {
                 $gefilterdeLijst[] = $auto;
-            } else if ($auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs && $merk === "") {
+            } else if ($auto->getBanddikte() === $banddikte && $merk === "" && $auto->getPrijs() >= $minimalePrijs && $auto->getPrijs() <= $maximalePrijs) {
                 $gefilterdeLijst[] = $auto;
             }
         }
@@ -41,9 +41,11 @@ class Auto {
     private $merk;
     private $type;
     private $prijs;
+    private $banddikte;
     private $url;
 
-    public function __construct(string $merk, string $type, int $prijs, string $url) {
+    public function __construct(string $banddikte, string $merk, string $type, int $prijs, string $url) {
+        $this->banddikte = $banddikte;
         $this->merk = $merk;
         $this->type = $type;
         $this->prijs = $prijs;
@@ -51,6 +53,10 @@ class Auto {
     }
 
     // Teruggeven van de ingevoerde waarden
+    public function getBanddikte() {
+        return $this->merk;
+    }
+
     public function getMerk() {
         return $this->merk;
     }
