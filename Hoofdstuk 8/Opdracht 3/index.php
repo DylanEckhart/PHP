@@ -1,7 +1,6 @@
-
 <?php
 
-include_once("autoFilter.php");
+include_once("AutoFilter.php");
 
 $banddikte = isset($_GET["banddikte"]) ? $_GET["banddikte"] : "";
 $merk = isset($_GET["merk"]) ? $_GET["merk"] : "";
@@ -25,19 +24,19 @@ $autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Lamborghini', 'Urus', 278844,
 <body>
 <div id="wrapper">
     <img class="header" src="img/wheelyHeader.jpg" alt="header-img">
-    <form action="index.php" method="GET">
+    <form action="index.php" method="get">
         <label>
             Banddikte: <br>
-            <select id="banddikte">
+            <select id="banddikte" name="banddikte">
                 <option value="">Kies één van de onderstaande banddiktes</option>
-                <option value="dik">Dik</option>
-                <option value="middel">Middel</option>
-                <option value="dun">Dun</option>
+                <option value="Dik">Dik</option>
+                <option value="Middel">Middel</option>
+                <option value="Dun">Dun</option>
             </select>
         </label>
         <label>
             Merk: <br>
-            <select id="merk">
+            <select id="merk" name="merk">
                 <option value="">Kies één van de onderstaande merken</option>
                 <option value="Audi">Audi</option>
                 <option value='Jeep'>Jeep</option>
@@ -47,11 +46,11 @@ $autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Lamborghini', 'Urus', 278844,
         </label>
         <label>
             Minimale prijs: <br>
-            <input type="number" id="min-prijs">
+            <input type="number" id="min-prijs" name="min-prijs">
         </label>
         <label>
             Maximale prijs: <br>
-            <input type="number" id="max-prijs">
+            <input type="number" id="max-prijs" name="max-prijs">
         </label>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
@@ -59,12 +58,13 @@ $autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Lamborghini', 'Urus', 278844,
 
     <div class="picture-holder">
         <?php
-        include_once ('autoFilter.php');
+        include_once ('AutoFilter.php');
 
         foreach ($autoOverzicht->getGefilterdeLijst($banddikte, $merk, $minprijs, $maxprijs) as $auto) {
             echo '<div class="pictures">' . $auto->getMerk() . ' - type: ' . $auto->getType() .  ' - Banddikte: ' . $auto->getBanddikte() . " - €" . $auto->getPrijs() . "<br>";
             echo '<img width="100%" src="' . $auto->getUrl() . '" alt=""> <br> </div>';
         }
+
         ?>
     </div>
 </div>
