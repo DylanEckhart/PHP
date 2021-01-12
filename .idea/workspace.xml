@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 9.2">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 9/Broodje.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 9.3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 9/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +133,7 @@
       <workItem from="1610092125616" duration="1417000" />
       <workItem from="1610094938242" duration="57000" />
       <workItem from="1610439378848" duration="6000" />
-      <workItem from="1610439395618" duration="1699000" />
-    </task>
-    <task id="LOCAL-00022" summary="Version 5.7">
-      <created>1606912061304</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1606912061304</updated>
+      <workItem from="1610439395618" duration="2785000" />
     </task>
     <task id="LOCAL-00023" summary="Version 5.8">
       <created>1606918430148</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610440494753</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Version 9.3">
+      <created>1610441425661</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441425661</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 7.10" />
     <MESSAGE value="Version 7.11" />
     <MESSAGE value="Version 7.12" />
     <MESSAGE value="Version 7.13" />
@@ -523,6 +522,7 @@
     <MESSAGE value="Opdracht opnieuw begonnen" />
     <MESSAGE value="Version 9.1" />
     <MESSAGE value="Version 9.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 9.2" />
+    <MESSAGE value="Version 9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 9.3" />
   </component>
 </project>

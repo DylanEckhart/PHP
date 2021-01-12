@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+
+header {
+    background-image: url("IMG/");
+}
+
+header h1 {
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+ul {
+    text-align: left;
+    width: 80%;
+    padding: 0;
+}
+
+li {
+   padding: 0 10px 0 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+}
+
+form {
+    font-size: 25px;
+    text-align: left;
+}
+
+form input {
+    height: 25px;
+    width: 100%;
+}
