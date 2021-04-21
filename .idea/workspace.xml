@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 9.4">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk 9/IMG/broodjes_achtergrond.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 9/style.css" afterDir="false" />
+    <list default="true" id="9ee1f389-ef59-42cb-a02b-ea76abac20e2" name="Default Changelist" comment="Version 9.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 7/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk 7/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/Broodje.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/BroodjesToevoegen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/IMG/broodjes_achtergrond.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk 9/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +89,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -133,14 +138,21 @@
       <workItem from="1610092125616" duration="1417000" />
       <workItem from="1610094938242" duration="57000" />
       <workItem from="1610439378848" duration="6000" />
-      <workItem from="1610439395618" duration="3405000" />
-    </task>
-    <task id="LOCAL-00024" summary="Version 5.9">
-      <created>1606923774836</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1606923774836</updated>
+      <workItem from="1610439395618" duration="4632000" />
+      <workItem from="1610546649573" duration="418000" />
+      <workItem from="1610613713172" duration="414000" />
+      <workItem from="1612777637523" duration="515000" />
+      <workItem from="1612778249134" duration="10000" />
+      <workItem from="1613466151310" duration="128000" />
+      <workItem from="1613760476942" duration="157000" />
+      <workItem from="1617089476189" duration="329000" />
+      <workItem from="1617196804252" duration="14000" />
+      <workItem from="1618300423239" duration="36000" />
+      <workItem from="1618300503269" duration="97000" />
+      <workItem from="1618472886583" duration="69000" />
+      <workItem from="1618816101555" duration="30000" />
+      <workItem from="1618816158075" duration="2228000" />
+      <workItem from="1619008215580" duration="657000" />
     </task>
     <task id="LOCAL-00025" summary="Version 5.10">
       <created>1606923902388</created>
@@ -478,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610442352988</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Version 9.5">
+      <created>1610443288663</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1610443288663</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Version 7.12" />
     <MESSAGE value="Version 7.13" />
     <MESSAGE value="Version 8.1" />
     <MESSAGE value="Version 8.2" />
@@ -523,6 +541,7 @@
     <MESSAGE value="Version 9.2" />
     <MESSAGE value="Version 9.3" />
     <MESSAGE value="Version 9.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 9.4" />
+    <MESSAGE value="Version 9.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 9.5" />
   </component>
 </project>
