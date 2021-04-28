@@ -31,6 +31,11 @@ $d = 23;
         </th>
         <th>
             <?php
+            echo $b;
+            ?>
+        </th>
+        <th>
+            <?php
             for($i = 1; $i <= $b/5; $i++){
                 echo "<img src='IMG/swim.png' width='50px' height='50px'>";
             }
@@ -48,7 +53,7 @@ $d = 23;
         </th>
         <th>
             <?php
-            for($i = 1; $i <= $b/5; $i++){
+            for($i = 1; $i <= $c/5; $i++){
             echo "<img src='IMG/swim.png' width='50px' height='50px'>";
             }
             ?>
@@ -65,7 +70,7 @@ $d = 23;
         </th>
         <th>
             <?php
-            for($i = 1; $i <= $b/5; $i++){
+            for($i = 1; $i <= $d/5; $i++){
             echo "<img src='IMG/swim.png' width='50px' height='50px'>";
             }
             ?>

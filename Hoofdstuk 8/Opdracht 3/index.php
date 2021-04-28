@@ -23,7 +23,7 @@ $autoOverzicht->voegAutoToe(new autoFilter('Dik', 'Lamborghini', 'Urus', 278844,
 </head>
 <body>
 <div id="wrapper">
-    <img class="header" src="img/wheelyHeader.jpg" alt="header-img">
+    <img class="header" src="IMG/wheelyHeader.jpg" alt="header-img">
     <form action="index.php" method="get">
         <label>
             Banddikte: <br>
