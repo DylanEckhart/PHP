@@ -1,8 +1,8 @@
 <?php
 
 // Variabelen
-$user = "269218";
-$pass = "Dylan2004!";
+$user = "269218"; //Inlognaam voor database en PHPMyAdmin
+$pass = "Dylan2004!"; //Wachtwoord voor database en PHPMyAdmin
 
 // Ophalen uit database PHP
 try {
