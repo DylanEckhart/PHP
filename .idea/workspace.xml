@@ -154,13 +154,10 @@
       <workItem from="1619165035478" duration="5319000" />
       <workItem from="1619592351794" duration="1083000" />
       <workItem from="1619607535215" duration="2041000" />
-    </task>
-    <task id="LOCAL-00028" summary="Version 6.1">
-      <created>1607329531909</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1607329531910</updated>
+      <workItem from="1619691618854" duration="73000" />
+      <workItem from="1620581933891" duration="290000" />
+      <workItem from="1620582258640" duration="109000" />
+      <workItem from="1620633908888" duration="1282000" />
     </task>
     <task id="LOCAL-00029" summary="Version 6.2">
       <created>1607329586138</created>
@@ -498,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619614095618</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Problemen met MySQL naar webserver opgelost">
+      <created>1619691680868</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1619691680869</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
